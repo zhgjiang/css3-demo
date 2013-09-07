@@ -43,3 +43,21 @@
         top: -158px;
         left: 100px;
 }
+
+/* Optional Animations */
+
+.cube {
+    -webkit-transition: -webkit-transform 1s linear;
+    -moz-transition: -moz-transform 1s linear;
+    -o-transition: -o-transform 1s linear;
+    -ms-transition: -ms-transform 1s linear;
+    transition: transform 1s linear;
+}
+
+.cube:hover {
+    -webkit-transform: translate(202px, 115px);
+    -moz-transform: translate(202px, 115px);
+    -o-transform: translate(202px, 115px);
+    -ms-transform: translate(202px, 115px);
+    transform: translate(202px, 115px);
+}
